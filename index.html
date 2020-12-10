@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/vue"></script> <!--Include Vue-->
   <title>Homework 6</title>
 </head>
 <body>
-  <h1>Homework 6</h1>
+  <h1>Homework 6: Updating the DOM Using Vue &amp; Mouseover</h1>
   <section id="imageContainer">
     <section>
-      <h3>Sam Farley Through the Years</h3>
+      <h2>Sam Farley Through the Years</h2>
       <!--Code adapted from https://stackoverflow.com/questions/45311433/how-to-change-image-on-mouseover-in-vue-js-->
       <img :src="myImage1" v-if="current1" v-on:mouseover="current1 = false, current2 = true" alt="5 year old Sam Farley on a rocking horse">
       <img :src="myImage2" v-else-if="current2" v-on:mouseover="current2 = false, current3 = true" alt="young Sam playing dress up">
@@ -19,7 +21,7 @@
       <img :src="myImage4" v-else-if="current4" v-on:mouseover="current4 = false, current1 = true" alt="Sam at her college graduation">
     </section>
     <section>
-      <h3>Northern Minnesota 2020</h3>
+      <h2>Northern Minnesota 2020</h2>
       <!--Code adapted from https://stackoverflow.com/questions/45311433/how-to-change-image-on-mouseover-in-vue-js-->
       <img :src="myImage5" v-if="current5" v-on:mouseover="current5 = false, current6 = true" alt="dock at sunset on Lake Vermilion">
       <img :src="myImage6" v-else-if="current6" v-on:mouseover="current6 = false, current7 = true" alt="poppel tree forest during the fall">
@@ -28,7 +30,7 @@
       <img :src="myImage9" v-else-if="current9" v-on:mouseover="current9 = false, current5 = true" alt="Sam holding a small-mouth bass">
     </section>
     <section>
-      <h3>My Niece Madilynn Rae</h3>
+      <h2>My Niece Madilynn Rae</h2>
       <!--Code adapted from https://stackoverflow.com/questions/45311433/how-to-change-image-on-mouseover-in-vue-js-->
       <img :src="myImage10" v-if="current10" v-on:mouseover="current10 = false, current11 = true" alt="baby Madilynn in a snowsuit">
       <img :src="myImage11" v-else-if="current11" v-on:mouseover="current11 = false, current12 = true" alt="baby Madilynn in a pumpkin outfit">
