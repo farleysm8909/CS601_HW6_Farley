@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: #ffffff;
+  background-color: #6e0000;
+  margin: 0;
+  padding: 12px;
+}
+
+img {
+  width: 430px;
+  height: 575px;
+  object-fit: cover;
+  border: 10px solid #6e0000;
+}
+
+#imageContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
