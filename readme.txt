@@ -1,8 +1,8 @@
 WEEK 6
 
-Please note the following assumptions for this assignment based on the instructions 
-(The assignment instructions were a little vague in my opinion and, to my knowledge, there is no example to reference on Blackboard):
-- 1 image (at minimum) should be visible on the screen at any given time
+Please note the following assumptions I made for this assignment based on the instructions 
+(The assignment instructions were a little unclear in my opinion and, to my knowledge, there is no example to reference on Blackboard):
+- 1 image should be visible on the screen at any given time
 - the user can cycle through a total of 4 different images when their mouse rests over the image that is currently showing
 
 How Sam Farley Went Above and Beyond:
