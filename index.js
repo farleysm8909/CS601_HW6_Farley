@@ -35,4 +35,4 @@ var app = new Vue({
     myImage15: "images/baby6.jpg",
     current15: false
   }
-})
+}) /* JS Hint validator says I am missing a semi-colon here, but in every example I have found on creating a new Vue instance, there is no semi-colon here (including in the lecture slides) so I ommitted it */

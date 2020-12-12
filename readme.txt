@@ -3,7 +3,8 @@ WEEK 6
 Please note the following assumptions I made for this assignment based on the instructions 
 (The assignment instructions were a little unclear in my opinion and, to my knowledge, there is no example to reference on Blackboard):
 - 1 image should be visible on the screen at any given time
-- the user can cycle through a total of 4 different images when their mouse rests over the image that is currently showing
+- the user can cycle through a total of 4 different images when their mouse moves over the image that is currently showing
+- the errors concerning Vue syntax when validating my HTML are excusable
 
 How Sam Farley Went Above and Beyond:
 - Added 3 different image sections instead of just one and used a total of 15 images
